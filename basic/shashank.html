@@ -1,65 +1,40 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>dropdown menu</title>
   <link rel="stylesheet" href="styles.css">
-  <title>Home</title>
 </head>
 <body>
-  <div class="topnav">
-    <a class="active" href="#home">HOME</a>
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
-  </div>
-
-
-
-  <div class="dropdown-1">
-    <button class="dropbtn-1">Devops</button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-  </div>
-
-
-
-
-  <div class="dropdown">
-    <button class="dropbtn">Devops</button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-  </div>
-  <div class="dropdown">
-    <button class="dropbtn">Programming</button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-  </div>
-  <div class="dropdown">
-    <button class="dropbtn">Machine Learning</button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-  </div>
-  <div class="dropdown">
-    <button class="dropbtn">Artificial Intelligence</button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-  </div>
-
-
+	<nav class="cf">
+		<nav class="cf">
+      <ul class="topmenu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a>
+          <ul class="submenu">
+            <li><a href="#">Laptops</a></li>
+            <li><a href="#">Tablets</a></li>
+            <li><a href="#">Smartphones</a></li>
+            <li><a href="#">Accessories</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Blog</a>
+          <ul class="submenu">
+            <li><a href="#">Recent articles</a></li>
+            <li><a href="#">Archives</a></li>
+            <li><a href="#">Hall of fame</a></li>
+          </ul>
+        </li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a>
+          <ul class="submenu">
+            <li><a href="#">Customer service</a></li>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Technical support</a></li>
+          </ul>
+        </li>
+      </ul>
+		</nav>
+	</nav>
 </body>
 </html>
